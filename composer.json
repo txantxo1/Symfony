@@ -1,11 +1,20 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "Ivan-Murillo-Curso-Symfony",
     "license": "MIT",
     "type": "project",
     "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
         "psr-0": { "": "src/" }
     },
+    "authors": [
+	{
+	  "name" : "Ivan Murillo",
+	  "email": "txantxo1@gmail.com",
+	  "homepage": "http://ivanmurillo.es",
+	  "role": "Developer"
+	}
+    ],
+    
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.3.*",
