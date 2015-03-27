@@ -19,9 +19,6 @@
         "sensio/framework-extra-bundle": "2.3.*",
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0"
-        "symfony/assetic-bundle": "2.1.*", 
-        "leafo/lessphp": "*",
-        "twitter/bootstrap": "*",
     },
     "scripts": {
         "post-install-cmd": [
@@ -54,21 +51,3 @@
         }
     }
 }
-"repositories": [
-    {
-       "type": "package",
-       "package": {
-           "version": "2.2.1",
-           "name": "twitter/bootstrap",
-           "source": {
-               "url": "https://github.com/twitter/bootstrap.git",
-               "type": "git",
-               "reference": "master"
-           },
-           "dist": {
-               "url": "https://github.com/twitter/bootstrap/zipball/master",
-               "type": "zip"
-           }
-       }
-    }
-]

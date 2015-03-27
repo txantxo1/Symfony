@@ -1,3 +1,0 @@
-my_recipes_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: MyRecipesBundle:Default:index }
